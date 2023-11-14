@@ -6,9 +6,8 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: `<router-outlet />`,
 })
 export class AppComponent {
-  title = 'tg-angular-front-app';
+
 }
